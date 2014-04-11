@@ -8,6 +8,10 @@ module Utils
     8 * bytes_nb(x)
   end
 
+  def bits_integer
+    bits_nb 1
+  end
+
   def max_integer
     bytes_nb = 1.size
     bits_nb = bytes_nb * 8
